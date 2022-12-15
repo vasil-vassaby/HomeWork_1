@@ -6,3 +6,12 @@
 # - 1 -> нет
 
 number = int(input('Введите число: '))
+
+print('Является ли этот день выходным:')
+
+if number == 6 or number == 7:
+    print('да')
+elif number <= 0 or number >= 8:
+    print('ошибка, введите значение от 1 до 7!')
+else:
+    print('нет')
